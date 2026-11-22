@@ -1,0 +1,88 @@
+# --- Python virtual envs
+.venv/
+.venv311/
+.venv311_final/
+venv/
+env/
+
+# --- Python cache/build
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+build/
+dist/
+*.egg-info/
+
+# --- Local runtime artifacts
+outputs/
+temp/
+uploads/
+*.log
+*.ffconcat
+*.zip
+*.jsonl
+
+# --- Optional external models
+pretrained_models/
+
+# --- OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+
+
+/outputs/
+
+/temp/
+
+*.pkl
+*.pt
+*.ckpt
+
+# --- Video processing artifacts (V5.0.0)
+*.mp4
+*.avi
+*.mov
+*.mkv
+diagnostic_pipeline.log
+NUCLEAR_DURATION.txt
+
+
+# Release validation and private files
+.validation/
+.claude/
+logs/
+NUCLEAR_DURATION.txt
+validation_results.json
+source_audio.aac
+__MACOSX/
+._*
+nul
+!Practical-RIFE/train_log/flownet.pkl
+
+# Disposable repair validation (never ship)
+.repair/
+
+# Internal process reports remain local
+*-REPORT.md
+
+# Disposable publication / shortcut validation
+.publication-check/
+.shortcut-check/
+
+# Private configuration and local OS/output files
+.env
+.env.*
+!.env.example
+Desktop.ini
+$RECYCLE.BIN/
+output/
+.cache/
+.coverage
+htmlcov/

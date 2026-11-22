@@ -1,0 +1,20 @@
+*.pyc
+*.py~
+*.py#
+
+*.pkl
+output/*
+train_log/*
+*.mp4
+
+test/
+.idea/
+*.npz
+
+*.zip
+
+# Explicit source-release model allowlist
+!train_log/flownet.pkl
+!train_log/IFNet_HDv3.py
+!train_log/RIFE_HDv3.py
+!train_log/refine.py
