@@ -129,6 +129,8 @@ The suite uses synthetic FFmpeg/RIFE fixtures. The legacy performance suite expl
 
 ## 📖 Documentation
 
+Start with the **[Syntheris Continuum Overview](docs/SYNTHERIS_CONTINUUM_OVERVIEW.md)** for current capabilities, architecture, setup and limitations.
+
 ### User Guides
 - **[Quick Start Guide](docs/Quick_Start.md)**: Essential setup and first use
 - **[User Guide Complete](docs/User_Guide_Complete.md)**: Comprehensive features
@@ -140,9 +142,13 @@ The suite uses synthetic FFmpeg/RIFE fixtures. The legacy performance suite expl
 - **[Troubleshooting](docs/Troubleshooting.md)**: Common issues and solutions
 
 ### Research Documentation
-- **Duration Preservation Research**: Research findings and implementation
-- **RIFE v4.26 Integration**: Exact FPS targeting technical details
-- **PTS Handling Specification**: Timestamp management research
+
+- **[FFmpeg filter parsing](<docs/Research-FFmpeg select filter command line parsing solutions.md>)**
+- **[Gradio schema analysis](<docs/Research-Gradio boolean schema bug Technical analysis and solutions.md>)**
+- **[Gradio schema solutions](<docs/Research-Gradio boolean schema bug definitive production solution.md>)**
+- **[Duration Preservation Research](<docs/Research- Duration preservation in AI video interpolation pipelines.md>)**: Historical research background.
+- **[RIFE v4.26 Integration](docs/SYNTHERIS_CONTINUUM_OVERVIEW.md#rife-v426-and-exact-fps-targeting)**: Target rates and model limitations.
+- **[PTS Handling](docs/SYNTHERIS_CONTINUUM_OVERVIEW.md#research-oriented-presets-and-pts-handling)**: Timestamp reset and concatenation behavior.
 
 ## [TEST] Testing & Validation
 

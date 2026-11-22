@@ -16,9 +16,11 @@ docs/Research- Duration preservation in AI video interpolation pipelines.md
 docs/Research-FFmpeg select filter command line parsing solutions.md
 docs/Research-Gradio boolean schema bug definitive production solution.md
 docs/Research-Gradio boolean schema bug Technical analysis and solutions.md
+docs/SYNTHERIS_CONTINUUM_OVERVIEW.md
 docs/Technical_Reference.md
 docs/Troubleshooting.md
 docs/User_Guide_Complete.md
+DOCUMENTATION-REPORT.md
 LICENSE
 MODEL_PROVENANCE.md
 Practical-RIFE/.gitignore
